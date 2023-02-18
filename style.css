@@ -224,7 +224,7 @@ nav ul li a i,
 .about-title {
     text-align: center;
     font-size: var(--very-big-font-size);
-    margin-bottom: 40px;
+    margin-bottom: var(--h1-font-size);
 }
 
 .about-header {
@@ -436,12 +436,12 @@ nav ul li a i,
         --very-big-font-size: 28px;
         --big-font-size: 24px;
         --h1-font-size: 20px;
-        --h2-font-size: 20px;
+        --h2-font-size: 18px;
         --h3-font-size: 16px;
         --normal-font-size: 14px;
         --small-font-size: 12px;
 
-        --padding-all: 20px 30px;
+        --padding-all: 20px 20px;
     }
 
     nav ul {
@@ -462,6 +462,19 @@ nav ul li a i,
     nav ul li a i {
         display: block !important;
         margin-right: 6px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    :root {
+        --very-very-big-font-size: 36px;
+        --very-big-font-size: 24px;
+        --big-font-size: 22px;
+        --h1-font-size: 18px;
+        --h2-font-size: 16px;
+        --h3-font-size: 14px;
+        --normal-font-size: 12px;
+        --small-font-size: 11px;
     }
 }
 
