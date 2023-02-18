@@ -266,7 +266,7 @@ nav ul li a i,
 .tab-links {
     margin-right: var(--big-font-size);
     color: var(--text-color);
-    font-size: var(--h2-font-size);
+    font-size: var(--h3-font-size) !important;
     cursor: pointer;
     position: relative;
 }
@@ -308,7 +308,7 @@ nav ul li a i,
 .contents > p {
     margin-bottom: var(--h2-font-size);
     color: var(--text-color);
-    font-size: var(--h3 -font-size);
+    font-size: var(--h3-font-size);
 }
 
 @media screen and (max-width: 900px) {
