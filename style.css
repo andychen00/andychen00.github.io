@@ -291,30 +291,6 @@ nav ul li a i,
 }
 
 /* Skill */
-/* Skill */
-/* Skill */
-/* Skill */
-/* Skill */
-/* Skill */
-/* Skill */
-/* Skill */
-/* Skill */
-/* Skill */
-/* Skill */
-/* Skill */
-/* Skill */
-/* Skill */
-/* Skill */
-/* Skill */
-/* Skill */
-/* Skill */
-/* Skill */
-/* Skill */
-/* Skill */
-/* Skill */
-/* Skill */
-/* Skill */
-/* Skill */
 
 .skill {
     padding: var(--padding-all);
@@ -387,6 +363,107 @@ nav ul li a i,
 
 .skill-column .database::before {
     width: 70%;
+}
+
+/* Contact Me */
+/* Skill */
+/* Skill */
+/* Skill */
+/* Skill */
+/* Skill */
+/* Skill */
+/* Skill */
+/* Skill */
+/* Skill */
+/* Skill */
+/* Skill */
+/* Skill */
+/* Skill */
+/* Skill */
+/* Skill */
+/* Skill */
+/* Skill */
+/* Skill */
+/* Skill */
+/* Skill */
+/* Skill */
+/* Skill */
+/* Skill */
+
+.contact {
+    padding: var(--padding-all);
+}
+
+.contact-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-left {
+    width: 40%;
+    color: var(--text-color);
+    font-size: var(--h2-font-size);
+}
+
+.contact-left p {
+    padding-bottom: 20px;
+}
+
+.contact-left p i {
+    margin-right: 10px;
+    font-size: var(--h1-font-size);
+    color: var(--red-header-text-color);
+}
+
+.social-link {
+    padding-bottom: var(--big-font-size);
+}
+
+.social-link a {
+    color: var(--text-color);
+    font-size: var(--h1-font-size);
+    margin-right: 10px;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+
+.social-link a:hover {
+    color: var(--red-header-text-color);
+    transform: translateY(-5px);
+}
+
+.contact-button {
+    color: var(--text-color);
+    background-color: var(--red-header-text-color);
+    border-radius: 10px;
+    padding: 15px 40px;
+    font-size: var(--h3-font-size);
+    align-items: center;
+    font-weight: var(--font-medium);
+}
+
+.contact-right {
+    width: 60%;
+}
+
+.contact-right form {
+    width: 100%;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    border-radius: 10px;
+    border: 0px;
+    background-color: #e6f4f1;
+    padding: var(--h3-font-size);
+    color: var(--background-color);
+    margin-bottom: var(--h3-font-size);
+    outline: none;
+}
+
+form .contact-button{
+    cursor: pointer;
 }
 
 @media screen and (max-width: 900px) {
@@ -514,7 +591,7 @@ nav ul li a i,
         flex-direction: column;
     }
 
-    .skill-column{
+    .skill-column {
         width: 100%;
     }
 }
