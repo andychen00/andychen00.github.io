@@ -466,6 +466,16 @@ form .contact-button {
     cursor: pointer;
 }
 
+.footer {
+    height: var(--header-height);
+    background-color: black;
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: var(--font-medium);
+}
+
 @media screen and (max-width: 900px) {
     :root {
         --header-height: 4rem;
@@ -655,8 +665,4 @@ form .contact-button {
         --normal-font-size: 12px;
         --small-font-size: 11px;
     }
-}
-
-.footer {
-    height: var(--header-height);
 }
