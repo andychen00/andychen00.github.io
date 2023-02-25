@@ -462,7 +462,7 @@ form textarea {
     outline: none;
 }
 
-form .contact-button{
+form .contact-button {
     cursor: pointer;
 }
 
@@ -585,13 +585,26 @@ form .contact-button{
     }
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 580px) {
     .skill-content {
         display: flex;
         flex-direction: column;
     }
 
     .skill-column {
+        width: 100%;
+    }
+
+    .contact-content {
+        flex-direction: column;
+    }
+
+    .contact-left {
+        width: 100%;
+        margin-bottom: var(--very-big-font-size);
+    }
+
+    .contact-right {
         width: 100%;
     }
 }
