@@ -390,6 +390,62 @@ nav ul li a i,
 /* Skill */
 /* Skill */
 
+.project {
+    padding: var(--padding-all);
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-pagination-bullet{
+    background-color: #007aff;
+}
+
+.project-image {
+    width: 50%;
+    padding: var(--padding-all);
+    border-radius: var(--very-very-big-font-size);
+}
+
+.project-data {
+    width: 50%;
+}
+
+.project-data .project-title {
+    font-size: var(--h1-font-size);
+    color: var(--text-color);
+}
+
+.project-data .project-description {
+    color: var(--secondary-background-color);
+    padding: var(--small-font-size) 0;
+    font-size: var(--normal-font-size);
+}
+
+.project-button {
+    color: var(--text-color);
+    background-color: var(--red-header-text-color);
+    border-radius: var(--small-font-size);
+    padding: 15px 20px;
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+    align-items: center;
+    display: inline-block;
+}
+
+.project-button:hover {
+    opacity: 0.8;
+}
+
+/* Contact */
 .contact {
     padding: var(--padding-all);
 }

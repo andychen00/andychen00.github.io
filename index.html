@@ -9,11 +9,14 @@
             rel="stylesheet"
             href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
         />
+        <link rel="stylesheet" href="ref/swiper-bundle.min.css" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"></script>
+
         <link rel="stylesheet" href="style.css" />
         <link rel="stylesheet" href="about.css" />
     </head>
     <body>
+        <!-- Header  -->
         <header>
             <div class="nav">
                 <div class="nav-left">
@@ -114,6 +117,8 @@
                 </div>
             </div>
         </section>
+
+        <!-- Skill  -->
         <section class="skill" id="skill">
             <h1 class="all-title">Skill</h1>
             <div class="skill-content">
@@ -172,9 +177,54 @@
                 </div>
             </div>
         </section>
+
+        <!-- Project -->
         <section class="project" id="project">
             <h1 class="all-title">My Project</h1>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img
+                            src="assets/portfolio1.jpg"
+                            alt="picture"
+                            class="project-image"
+                        />
+                        <div class="project-data">
+                            <h3 class="project-title">Modern Website</h3>
+                            <p class="project-description">
+                                Website adaptable to all devices, with and
+                                animated interaction
+                            </p>
+                            <a href="#" class="project-button"
+                                >Demo <i class="uil uil-arrow-right btn"></i
+                            ></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img
+                            src="assets/portfolio1.jpg"
+                            alt="picture"
+                            class="project-image"
+                        />
+                        <div class="project-data">
+                            <h3 class="project-title">Online Store</h3>
+                            <p class="project-description">
+                                Website adaptable to all devices, with and
+                                animated interaction
+                            </p>
+                            <a href="#" class="project-button"
+                                >Demo <i class="uil uil-arrow-right"></i
+                            ></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
         </section>
+
+        <!-- Contact -->
         <section class="contact" id="contact">
             <h1 class="all-title">Contact Me</h1>
             <div class="contact-content">
@@ -231,12 +281,17 @@
                 </div>
             </div>
         </section>
+
+        <!-- Footer -->
         <div class="footer">
             <div>
                 Created by Andy Chen | <i class="uil uil-copyright"></i> 2023
                 All rights reserved
             </div>
         </div>
+
+        <!-- script -->
+        <script src="ref/swiper-bundle.min.js"></script>
         <script src="main.js"></script>
     </body>
 </html>

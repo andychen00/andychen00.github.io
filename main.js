@@ -57,3 +57,14 @@ tabLink.forEach((tab, index) => {
         contents[index].classList.add("active-content");
     });
 });
+
+//Swiper navigation project
+let swiper = new Swiper(".mySwiper", {
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+    pagination: {
+        el: ".swiper-pagination",
+    },
+});
