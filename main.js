@@ -83,6 +83,14 @@ let swiper = new Swiper(".mySwiper", {
     pagination: {
         el: ".swiper-pagination",
     },
-    mousewheel: true,
     keyboard: true,
 });
+
+// Show scroll up
+function scrollUp() {
+    const scrollUp = document.getElementById("scroll-up");
+    if (this.scrollY >= 560) scrollUp.classList.add("show-scroll-up");
+    else scrollUp.classList.remove("show-scroll-up");
+}
+
+window.addEventListener("scroll", scrollUp);
