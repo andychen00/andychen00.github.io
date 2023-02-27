@@ -298,14 +298,53 @@ nav ul li a i,
 
 .skill-content {
     display: flex;
+    flex-wrap: wrap;
     color: var(--text-color);
     font-size: var(--h2-font-size);
     font-weight: var(--font-medium);
 }
 
-.skill-column {
+.skill-accordian {
     width: 48%;
     margin-right: 2%;
+}
+
+.accordion {
+    width: 100%;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    cursor: pointer;
+    padding: var(--h2-font-size);
+    text-align: left;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    transition: 0.4s;
+    font-size: var(--h2-font-size);
+    margin-bottom: var(--h3-font-size);
+    box-shadow: 0 -0.5px 3px var(--text-color);
+    display: flex;
+}
+
+.icon-skill {
+    margin-right: var(--small-font-size);
+}
+
+.icon-up {
+    font-size: var(--h2-font-size);
+    margin-left: auto;
+}
+
+.panel {
+    padding: 0 var(--h3-font-size);
+    display: none;
+    overflow: hidden;
+    margin-bottom: var(--h3-font-size);
+}
+
+.skill-column {
+    margin-top: var(--h1-font-size);
+    width: 100%;
 }
 
 .skill-column .bars {
@@ -365,30 +404,7 @@ nav ul li a i,
     width: 70%;
 }
 
-/* Contact Me */
-/* Skill */
-/* Skill */
-/* Skill */
-/* Skill */
-/* Skill */
-/* Skill */
-/* Skill */
-/* Skill */
-/* Skill */
-/* Skill */
-/* Skill */
-/* Skill */
-/* Skill */
-/* Skill */
-/* Skill */
-/* Skill */
-/* Skill */
-/* Skill */
-/* Skill */
-/* Skill */
-/* Skill */
-/* Skill */
-/* Skill */
+/* Project */
 
 .project {
     padding: var(--padding-all);
