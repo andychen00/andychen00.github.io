@@ -58,7 +58,7 @@ tabLink.forEach((tab, index) => {
     });
 });
 
-//skill accordian 
+//skill accordian
 var acc = document.getElementsByClassName("accordion");
 var i;
 
@@ -73,7 +73,6 @@ for (i = 0; i < acc.length; i++) {
         }
     });
 }
-
 
 //Swiper navigation project
 let swiper = new Swiper(".mySwiper", {

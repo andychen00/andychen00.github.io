@@ -304,9 +304,13 @@ nav ul li a i,
     font-weight: var(--font-medium);
 }
 
-.skill-accordian {
+.accordion-content {
     width: 48%;
     margin-right: 2%;
+}
+
+.skill-accordian {
+    width: 100%;
 }
 
 .accordion {
@@ -333,6 +337,10 @@ nav ul li a i,
 .icon-up {
     font-size: var(--h2-font-size);
     margin-left: auto;
+}
+
+.active .icon-up {
+    transform: rotate(-180deg);
 }
 
 .panel {
@@ -389,7 +397,7 @@ nav ul li a i,
 }
 
 .skill-column .api::before {
-    width: 60%;
+    width: 70%;
 }
 
 .skill-column .java::before {
@@ -657,6 +665,10 @@ form .contact-button {
 
     .home-right {
         display: none !important;
+    }
+
+    .accordion-content {
+        width: 100%;
     }
 
     .about-left {
