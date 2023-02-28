@@ -385,11 +385,11 @@ nav ul li a i,
 }
 
 .skill-column .html::before {
-    width: 90%;
+    width: 80%;
 }
 
 .skill-column .css::before {
-    width: 90%;
+    width: 80%;
 }
 
 .skill-column .javascript::before {
@@ -401,11 +401,11 @@ nav ul li a i,
 }
 
 .skill-column .java::before {
-    width: 80%;
+    width: 70%;
 }
 
 .skill-column .c::before {
-    width: 80%;
+    width: 70%;
 }
 
 .skill-column .database::before {
@@ -473,12 +473,13 @@ nav ul li a i,
     color: var(--text-color);
     background-color: var(--red-header-text-color);
     border-radius: var(--small-font-size);
-    padding: 15px 20px;
+    padding: var(--normal-font-size) var(--small-font-size);
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
     align-items: center;
     display: inline-block;
     margin-right: var(--small-font-size);
+    margin-bottom: var(--small-font-size);
 }
 
 .project-button:hover {
@@ -539,7 +540,7 @@ nav ul li a i,
     border: none;
 }
 
-.contact-button:hover{
+.contact-button:hover {
     opacity: 0.8;
 }
 
