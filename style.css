@@ -536,6 +536,11 @@ nav ul li a i,
     font-size: var(--h3-font-size);
     align-items: center;
     font-weight: var(--font-medium);
+    border: none;
+}
+
+.contact-button:hover{
+    opacity: 0.8;
 }
 
 .contact-right {
